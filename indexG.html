@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Prediction System </title>
+  <link rel="stylesheet" href="stylesG.css" />
+  <link rel="stylesheet" href="stylep.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar1">
+    <a class="brand" href="index.html">Weather Prediction System</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="indexG.html">Gallery</a></li>
+      <li><a href="login.jsp">Login</a></li>
+    </ul>
+  </nav><br><br><br><br><br>
+
+  <h1 class="title">📸 Weather Gallery</h1>
+
+  <div class="gallery">
+    <div class="image" onclick="openLightbox(this)">
+      <img src="images/1.jpg" alt="Gallery 1" />
+      <div class="overlay"><i class="fas fa-search-plus"></i></div>
+      <p class="caption">❤️Cloudy❤️<br>Cloudy weather brings a soft, cozy charm to the day, with gentle light and the promise of refreshing rain. 🌥️😊
+.</p>
+    </div>
+    <div class="image" onclick="openLightbox(this)">
+      <img src="images/2.jpg" alt="Gallery 2" />
+      <div class="overlay"><i class="fas fa-search-plus"></i></div>
+      <p class="caption">❤️Thunderstorm❤️ <br>Thunderstorm weather fills the sky with dramatic energy, blending dark clouds, lightning, and rain into an exciting natural spectacle. ⛈️⚡😊
+</p>
+    </div>
+    <div class="image" onclick="openLightbox(this)">
+      <img src="images/a.jpeg" alt="Gallery 3" />
+      <div class="overlay"><i class="fas fa-search-plus"></i></div>
+      <p class="caption">❤️Ocean Breeze❤️<br>Ocean beach weather brings a joyful breeze, warm sun, and the soothing sound of waves, creating a perfect paradise by the sea. 🌊☀️😊
+</p>
+    </div>
+    <div class="image" onclick="openLightbox(this)">
+      <img src="images/b.jpg" alt="Gallery 1" />
+      <div class="overlay"><i class="fas fa-search-plus"></i></div>
+      <p class="caption">❤️Beautiful Dark Sunset❤️<br>A dark sunset paints the sky with deep, moody colors, wrapping the day in a peaceful, magical glow. 🌇🌌😊
+</p>
+    </div>
+    <div class="image" onclick="openLightbox(this)">
+      <img src="images/c.jpg" alt="Gallery 2" />
+      <div class="overlay"><i class="fas fa-search-plus"></i></div>
+      <p class="caption">❤️Rain Beauty❤️<br>Rainy weather brings a calming rhythm, fresh earthy scents, and a peaceful mood that soothes the soul. 🌧️🌿😊
+</p>
+    </div>
+    <div class="image" onclick="openLightbox(this)">
+      <img src="images/e.jpg" alt="Gallery 3" />
+      <div class="overlay"><i class="fas fa-search-plus"></i></div>
+      <p class="caption">❤️Mighty Snow❤️<br>Mighty snow blankets the world in pure white magic, turning everything quiet, majestic, and full of wonder. ❄️🏔️😊
+</p>
+    </div>
+    <div class="image" onclick="openLightbox(this)">
+      <img src="images/f.jpg" alt="Gallery 1" />
+      <div class="overlay"><i class="fas fa-search-plus"></i></div>
+      <p class="caption">❤️Snowfall❤️<br>Snowfall drifts gently from the sky, wrapping the world in a soft, sparkling blanket of peace and joy. ❄️🌨️😊
+</p>
+    </div>
+    <div class="image" onclick="openLightbox(this)">
+      <img src="images/i.jpg" alt="Gallery 2" />
+      <div class="overlay"><i class="fas fa-search-plus"></i></div>
+      <p class="caption">❤️Crazy Autumn❤️<br>Crazy autumn bursts with fiery colors, swirling leaves, and a playful breeze that dances through the golden air. 🍁🍂🌬️😊
+</p>
+    </div>
+    <div class="image" onclick="openLightbox(this)">
+      <img src="images/h.jpg" alt="Gallery 3" />
+      <div class="overlay"><i class="fas fa-search-plus"></i></div>
+      <p class="caption">❤️Sun Shine❤️<br>Sunshine fills the day with golden warmth, bright smiles, and a cheerful glow that lifts every heart. ☀️🌻😊
+</p>
+    </div>
+    <div class="image" onclick="openLightbox(this)">
+      <img src="images/j.jpg" alt="Gallery 1" />
+      <div class="overlay"><i class="fas fa-search-plus"></i></div>
+      <p class="caption">❤️Windy❤️<br>Windy weather swirls with lively energy, rustling leaves and lifting spirits with its playful, refreshing breeze. 🌬️🍃😊
+
+.</p>
+  </div>
+  <div class="image" onclick="openLightbox(this)">
+      <img src="images/l.jpg" alt="Gallery 1" />
+      <div class="overlay"><i class="fas fa-search-plus"></i></div>
+      <p class="caption">❤️Sunny❤️<br>Sunny weather shines with radiant light, clear skies, and a joyful warmth that brightens every moment. ☀️🌈😊
+
+.</p>
+</div>
+<div class="image" onclick="openLightbox(this)">
+      <img src="images/m.jpg" alt="Gallery 1" />
+      <div class="overlay"><i class="fas fa-search-plus"></i></div>
+      <p class="caption">❤️Awesome Spring❤️<br>Spring blossoms with fresh colors, sweet scents, and a joyful spirit that fills the air with new beginnings. 🌸🌼🌿😊
+
+.</p>
+</div>
+
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Zoomed Image" />
+  </div>
+
+  <script src="scriptG.js"></script>
+</body>
+</html>

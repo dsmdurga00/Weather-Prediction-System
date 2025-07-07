@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather Prediction System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="stylep.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar1">
+    <a class="brand" href="index.html">Weather Prediction System</a>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="indexG.html">Gallery</a></li>
+      <li><a href="login.jsp">Login</a></li>
+    </ul>
+  </nav>
+
+  <div style="height: 80px;"></div>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <img src="images/6e8c794b1919e2f5a364252867543d93.gif" alt="Weather Background" class="hero-image" />
+    <div class="hero-content text-center text-white">
+      <h1 class="display-5 fw-bold">Welcome to the Weather Prediction System</h1>
+      <p class="lead mt-3">
+        Stay informed with accurate forecasts, live updates, and predictive weather analysis.
+      </p>
+      <a href="login.jsp" class="btn btn-info btn-lg mt-3">Get Started</a>
+    </div>
+  </div>
+
+  <!-- Cards Section -->
+  <div class="container mt-5">
+    <h2 class="text-center mb-4" data-aos="fade-down">Key Features</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card feature-card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-cloud-sun-fill display-4 text-primary"></i>
+            <h5 class="card-title mt-3">Real-time Forecast</h5>
+            <p class="card-text">Get current weather updates and forecasts using live data from meteorological sources.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card feature-card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-bar-chart-line-fill display-4 text-primary"></i>
+            <h5 class="card-title mt-3">Predictive Analysis</h5>
+            <p class="card-text">AI-powered models analyze data trends to deliver accurate future weather predictions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card feature-card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-map-fill display-4 text-primary"></i>
+            <h5 class="card-title mt-3">Interactive Maps</h5>
+            <p class="card-text">Explore weather parameters like temperature, rain, and humidity through dynamic maps.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Card -->
+    <div class="card mt-5 feature-card" data-aos="fade-up">
+      <div class="card-body">
+        <h1 id="about"> About This Project</h1><br>
+        <p>
+         <b> 🌦️ Introduction:</b><br>
+           A Weather Prediction System is a technological solution used to 
+           forecast future weather conditions by analyzing data collected from various sources. 
+           These systems help people, businesses, and governments plan their activities based on expected weather 
+           patterns such as rainfall, temperature, humidity, storms, and more.<br><br>
+           
+           <b>🔍 Data Processing and Modeling</b><br>
+                After collection, the raw data is cleaned and processed using statistical tools 
+                and machine learning models. Algorithms such as regression, decision trees, and neural 
+                networks are used to identify patterns and make predictions. Numerical weather prediction 
+                (NWP) models also simulate atmospheric behavior to provide forecasts.<br><br>
+                
+                <b>📊 Data Collection:</b><br>
+                The system begins by collecting vast amounts of data from satellites, weather stations, 
+                radars, and IoT-based sensors placed on land, sea, and in the air. This data includes 
+                temperature, wind speed, pressure, humidity, and cloud movement, which are essential for 
+                predicting the weather accurately.<br><br>
+                
+                <b>🛠️ Technologies and Tools</b><br>
+                Weather prediction systems often use programming languages like HTML, CSS, JavaScript and 
+                Java, along with APIs such as OpenWeatherMap, NOAA, or AccuWeather. They may also use cloud 
+                computing platforms (like AWS or Azure) to process large-scale data efficiently and deliver real-time results.<br><br>
+                
+                <b>🌍 Applications and Benefits</b><br>
+                
+                These systems play a vital role in agriculture, helping farmers decide the best time for planting or 
+                harvesting. They are also critical in aviation, marine transport, disaster management, and 
+                urban planning. Early warnings can save lives and reduce damage by allowing people to prepare in advance.<br><br>
+                
+                
+        </p>
+        <p>
+          <b>✅ Conclusion</b><br>
+          
+          In conclusion, a Weather Prediction System is a powerful and essential tool that helps forecast 
+          atmospheric conditions using advanced data analytics, modeling techniques, and real-time data 
+          sources. By providing timely and accurate weather forecasts, it supports various sectors like 
+          agriculture, transportation, disaster management, and public safety. As technology evolves, 
+          these systems continue to become more accurate, intelligent, and accessible—making them crucial 
+          for daily decision-making and long-term planning in our weather-dependent world.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
